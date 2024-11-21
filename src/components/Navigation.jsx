@@ -25,7 +25,7 @@ const Navigation = () => {
                     {/* Logo */}
                     <div className="flex-shrink-0 flex gap-2 items-center">
                         <img className="h-8 rounded-full" src={logoImage} alt="Logo" />
-                        <a className='text-white ' href="#">Логотип</a>
+                        <a className='text-white ' href="#">ЛОГОТИП</a>
                     </div>
                     {/* Navigation Links */}
                     <div className="hidden md:block">
@@ -35,31 +35,31 @@ const Navigation = () => {
                                 className="text-gray-300 hover:bg-gray-700 
                                 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                                 onClick={() => scrollSmoothHandler('home')}
-                            >Главная</a>
+                            >ГЛАВНАЯ</a>
                             <a 
                                 href="#about" 
                                 className="text-gray-300 hover:bg-gray-700 
                                 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                                 onClick={() => scrollSmoothHandler('about')}
-                            >О нас</a>
+                            >О НАС</a>
                             <a 
                                 href="#features" 
                                 className="text-gray-300 hover:bg-gray-700 
                                 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                                 onClick={() => scrollSmoothHandler('features')}
-                            >Новости</a>
+                            >НОВОСТИ</a>
                             <a 
                                 href="#gallery" 
                                 className="text-gray-300 hover:bg-gray-700 
                                 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                                 onClick={() => scrollSmoothHandler('gallery')}
-                            >Галлерея</a>
+                            >ГАЛЛЕРЕЯ</a>
                             <a 
                                 href="#contact" 
                                 className="text-gray-300 hover:bg-gray-700 
                                 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                                 onClick={() => scrollSmoothHandler('contact')}
-                            >Контакты</a>
+                            >КОНТАКТЫ</a>
                         </div>
                     </div>
                     {/* Mobile Menu Button */}
@@ -85,31 +85,31 @@ const Navigation = () => {
                             className="text-gray-300 hover:bg-gray-700 hover:text-white 
                             block px-3 py-2 rounded-md text-base font-medium"
                             onClick={() => scrollSmoothHandler('home')}
-                        >Главная</a>
+                        >ГЛАВНАЯ</a>
                         <a 
                             href="#about" 
                             className="text-gray-300 hover:bg-gray-700 hover:text-white 
                             block px-3 py-2 rounded-md text-base font-medium"
                             onClick={() => scrollSmoothHandler('about')}
-                        >О нас</a>
+                        >О НАС</a>
                         <a 
                             href="#features" 
                             className="text-gray-300 hover:bg-gray-700 hover:text-white 
                             block px-3 py-2 rounded-md text-base font-medium"
                             onClick={() => scrollSmoothHandler('features')}
-                        >Новости</a>
+                        >НОВОСТИ</a>
                         <a 
                             href="#gallery" 
                             className="text-gray-300 hover:bg-gray-700 hover:text-white 
                             block px-3 py-2 rounded-md text-base font-medium"
                             onClick={() => scrollSmoothHandler('gallery')}
-                        >Галлерея</a>
+                        >ГАЛЛЕРЕЯ</a>
                         <a 
                             href="#contact" 
                             className="text-gray-300 hover:bg-gray-700 hover:text-white 
                             block px-3 py-2 rounded-md text-base font-medium"
                             onClick={() => scrollSmoothHandler('contact')}
-                        >Контакты</a>
+                        >КОНТАКТЫ</a>
                     </div>
                 </div>
             )}

@@ -4,7 +4,7 @@ import { Navigation } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
-import galleryImage1 from '../assets/img/nature-1.avif';
+import galleryImage1 from '../assets/img/image1.jpg';
 import galleryImage2 from '../assets/img/nature-2.jpg';
 import galleryImage3 from '../assets/img/nature-3.jpg';
 import galleryImage4 from '../assets/img/nature-4.jpg';
@@ -23,16 +23,16 @@ const Gallery = () => {
                         slidesPerView={1}
                         navigation={true}
                     >
-                        <SwiperSlide>
-                        <img className="h-auto w-full" src={galleryImage1} alt="Gallery Image 1" />
+                        <SwiperSlide className="h-[28rem]">
+                        <img className="w-full h-full object-cover" src={galleryImage1} alt="Gallery Image 1" />
                         </SwiperSlide>
-                        <SwiperSlide>
+                        <SwiperSlide className="h-[28rem]">
                         <img className="h-auto w-full" src={galleryImage2} alt="Gallery Image 2" />
                         </SwiperSlide>
-                        <SwiperSlide>
+                        <SwiperSlide className="h-[28rem]">
                         <img className="h-auto w-full" src={galleryImage3} alt="Gallery Image 2" />
                         </SwiperSlide>
-                        <SwiperSlide>
+                        <SwiperSlide className="h-[28rem]">
                         <img className="h-auto w-full" src={galleryImage4} alt="Gallery Image 2" />
                         </SwiperSlide>
                     </Swiper>
