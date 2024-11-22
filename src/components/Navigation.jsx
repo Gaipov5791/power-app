@@ -25,7 +25,7 @@ const Navigation = () => {
                     {/* Logo */}
                     <div className="flex-shrink-0 flex gap-2 items-center">
                         <img className="h-8 rounded-full" src={logoImage} alt="Logo" />
-                        <a className='text-white ' href="#">ЛОГОТИП</a>
+                        <a className='text-white ' href="#">Логотип</a>
                     </div>
                     {/* Navigation Links */}
                     <div className="hidden md:block">
