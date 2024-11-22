@@ -6,7 +6,7 @@ const Contacts = () => {
         <div className="bg-gray-100 py-16" id='contact'>
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="text-center">
-                    <h2 className="text-3xl font-semibold text-gray-600">Свяжитесь с нами</h2>
+                    <h2 className="text-3xl font-semibold text-gray-600">СВЯЖИТЕСЬ С НАМИ</h2>
                 </div>
                 <div className="mt-10 max-w-lg mx-auto">
                     <form className="grid grid-cols-1 gap-y-6">
@@ -69,7 +69,7 @@ const Contacts = () => {
                     </form>
                     {/* Section for contact information */}
                     <div>
-                        <h3 className="text-xl font-semibold mb-4">Контакты:</h3>
+                        <h3 className="text-xl font-semibold mb-4">КОНТАКТЫ:</h3>
                         <div>
                         <p className="text-sm font-medium text-gray-700 mb-2">Страна:</p>
                         <p className="text-gray-600">Кыргызстан</p>
